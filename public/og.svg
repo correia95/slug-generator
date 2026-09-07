@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0c0e12"/>
+  <text x="80" y="150" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="82" font-weight="800" fill="#e6e9ef" letter-spacing="-1">URL Slug Generator</text>
+  <text x="80" y="205" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="27" fill="#949cab">Clean slugs from any title · bulk mode · accent-safe</text>
+  <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="34" font-weight="700">
+    <text x="80" y="320" fill="#949cab">Crème Brûlée &amp; Café — Déjà Vu</text>
+    <text x="80" y="370" fill="#38bdf8">↓</text>
+    <text x="80" y="420" fill="#e6e9ef">creme-brulee-and-cafe-deja-vu</text>
+  </g>
+  <text x="80" y="510" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="24" fill="#e6e9ef">Separator, max length, lowercase, ASCII-only, drop stop words</text>
+  <text x="80" y="552" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="22" fill="#949cab">Free · no sign-up · runs in your browser</text>
+</svg>

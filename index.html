@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0369a1" />
+
+    <title>URL Slug Generator — clean slugs from any title</title>
+    <meta
+      name="description"
+      content="Turn a title into a clean URL slug: lowercase, hyphenated, accents flattened, punctuation removed. Choose the separator, max length and whether to keep non-ASCII or drop small words. Paste multiple lines to slugify in bulk. Runs in your browser."
+    />
+    <link rel="canonical" href="https://slug-generator.correia95.workers.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="URL Slug Generator" />
+    <meta property="og:description" content="Clean URL slugs from any title — lowercase, hyphenated, accents flattened. Bulk mode, separator and length options. Free, no sign-up." />
+    <meta property="og:url" content="https://slug-generator.correia95.workers.dev/" />
+    <meta property="og:image" content="https://slug-generator.correia95.workers.dev/og.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="URL Slug Generator" />
+    <meta name="twitter:description" content="Clean URL slugs from any title — lowercase, hyphenated, accents flattened. Bulk mode, separator and length options." />
+    <meta name="twitter:image" content="https://slug-generator.correia95.workers.dev/og.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "URL Slug Generator",
+        "url": "https://slug-generator.correia95.workers.dev/",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Generate clean URL slugs from titles, with accent transliteration, symbol-to-word conversion, separator and length options and a bulk mode, entirely in the browser."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a URL slug?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The slug is the readable part of a URL that identifies a page, like my-first-post in /blog/my-first-post. A good slug is short, lowercase and made of real words separated by hyphens."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I use hyphens or underscores in a slug?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hyphens. Search engines treat a hyphen as a word separator and an underscore as a word joiner, so red-shoes is read as two words and red_shoes as one."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How are accented characters handled?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "They are transliterated to their plain form: café becomes cafe, Straße becomes strasse, Łódź becomes lodz. Turn off ASCII only to keep non-Latin scripts as they are."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I generate many slugs at once?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Paste one title per line and each gets its own slug, with a Copy all button for the whole list."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <p style="text-align: center; padding: 20px">
+        This URL slug generator needs JavaScript. It turns a title into a clean slug — lowercase,
+        hyphenated, accents flattened — with separator, length and bulk options.
+      </p>
+    </noscript>
+  </body>
+</html>
